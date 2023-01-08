@@ -1,0 +1,102 @@
+body{ /*Corpo*/
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{ /*cabeçario*/
+    display: flex;
+    flex-direction: row; /* direção de linha*/
+    justify-content: space-between;/*criar um empaço*/
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block; /* Todos elementos na linha*/
+    margin: 20px; /*separar os itens na tela*/
+}
+
+a{
+    color: white;
+}
+
+a:hover{ /*efeito de mudar a cor do texto*/
+    color: rgb(132,14,201);
+    transition: 0.3s all; /*tempo para mudar a cor*/
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(132,14,201);/* espessura-modo-cor*/
+    padding: 10px;/*distanciamento da borda da palavra*/
+    border-radius: 15px; /*arredondamento da borda*/
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(132,14,201);
+    color: white;
+}
+
+h1{
+    font-weight: 200;/* força da fonte*/
+    line-height: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px; /*tamanho da fonte*/
+    line-height: 10px;/*distanciamento das palavras*/
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(132,14,201);
+}
+
+p{
+    line-height:20px;
+    max-height: 500px;/*tamanho da largura maxima*/
+    font-family: popinslight;
+}
+
+img{
+    width: 580px; /*largura*/
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px; /*altura*/
+    width: 200px; /*largura*/
+    background-color: rgb(132,14,201); /*cor de fundo*/
+    color: white; /*cor da fonte*/
+    font-weight: bold; /*força da cor*/
+}
+
+form [type="submit"]:hover{
+    cursor: pointer; /*mudar o tipo de cursor*/
+}
+input{
+    margin-top: 20px;
+    height: 20px; /*aumentar o tamanho - altura*/
+    padding: 15px;/*aumentar o distanciamento*/
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}

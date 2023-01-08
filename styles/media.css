@@ -1,0 +1,30 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;/*cabeçario em coluna*/
+    }
+
+    main{
+        flex-direction: column; /*itens como coluna*/
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    form{
+        margin: 0 auto; /*centralizar o formulario*/
+        width: 100%;
+    }
+
+    input{
+        align-self: center; /* alinhar ele mesmo no centro*/
+    }
+
+    img{
+        display: none; /*desabilitar a imagem*/
+    }
+
+    ul{
+        text-align: center; /*centralizar os itens*/
+    }
+}
